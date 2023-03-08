@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "jobapplicationplatfo",
+    "serviceName": "AppSync",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7,
+      "apiKeyExpirationDate": "2022-10-21T23:04:31.958Z",
+      "keyDescription": "goat"
+    },
+    "conflictResolution": {},
+    "additionalAuthTypes": []
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "api": {
+    "jobapplicationplatfo": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7,
+              "apiKeyExpirationDate": "2022-10-21T23:04:31.958Z",
+              "description": "goat"
+            }
+          },
+          "additionalAuthenticationProviders": []
+        }
+      }
+    }
+  },
+  "auth": {}
+}

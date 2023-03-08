@@ -1,0 +1,56 @@
+# This "input" configures a global authorization rule to enable public access to
+# all models in this schema. Learn more about authorization rules here: https://docs.amplify.aws/cli/graphql/authorization-rules
+input AMPLIFY { globalAuthRule: AuthRule = { allow: public } } # FOR TESTING ONLY!
+
+enum PostStatus {
+  ACTIVE
+  INACTIVE
+}
+
+
+type Job @model {
+  id: ID!
+  posterpubkey: String!
+  title: String!
+  content: String!
+  pay: String!
+  timeline: String!
+  status: PostStatus!
+  createdAt: AWSDateTime!
+}
+
+type Gig @model {
+  id: ID!
+  posterpubkey: String!
+  title: String!
+  content: String!
+  pay: String!
+  timeline: String!
+  status: PostStatus!
+  createdAt: AWSDateTime!
+}
+
+type User @model {
+  id: ID!
+  publickey: String!
+  name: String!
+  bio: String!
+  createdAt: AWSDateTime!
+}
+
+type TimelinePost @model {
+  id: ID!
+  posterpubkey: String!
+  content: String!
+  createdAt: AWSDateTime!
+}
+
+type privMessage @model {
+  id: ID!
+  senderpubkey: String!
+  receiverpubkey: String!
+  content: String!
+  createdAt: AWSDateTime!
+}
+
+

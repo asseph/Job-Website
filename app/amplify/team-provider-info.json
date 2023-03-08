@@ -1,0 +1,41 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-jobapplicationplatfo-dev-135611-authRole",
+      "UnauthRoleArn": "arn:aws:iam::940990999552:role/amplify-jobapplicationplatfo-dev-135611-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::940990999552:role/amplify-jobapplicationplatfo-dev-135611-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-jobapplicationplatfo-dev-135611-deployment",
+      "UnauthRoleName": "amplify-jobapplicationplatfo-dev-135611-unauthRole",
+      "StackName": "amplify-jobapplicationplatfo-dev-135611",
+      "StackId": "arn:aws:cloudformation:us-east-1:940990999552:stack/amplify-jobapplicationplatfo-dev-135611/11d5ed70-3528-11ed-be10-12760150d3d7",
+      "AmplifyAppId": "d185gdibbq7yzk"
+    }
+  },
+  "newdev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-jobapplicationplatfo-newdev-171322-authRole",
+      "UnauthRoleArn": "arn:aws:iam::940990999552:role/amplify-jobapplicationplatfo-newdev-171322-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::940990999552:role/amplify-jobapplicationplatfo-newdev-171322-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-jobapplicationplatfo-newdev-171322-deployment",
+      "UnauthRoleName": "amplify-jobapplicationplatfo-newdev-171322-unauthRole",
+      "StackName": "amplify-jobapplicationplatfo-newdev-171322",
+      "StackId": "arn:aws:cloudformation:us-east-1:940990999552:stack/amplify-jobapplicationplatfo-newdev-171322/1a1e90c0-653b-11ed-807b-0a7b9007fc97",
+      "AmplifyAppId": "d185gdibbq7yzk"
+    }
+  },
+  "devnew": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-jobapplicationplatfo-devnew-124604-authRole",
+      "UnauthRoleArn": "arn:aws:iam::940990999552:role/amplify-jobapplicationplatfo-devnew-124604-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::940990999552:role/amplify-jobapplicationplatfo-devnew-124604-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-jobapplicationplatfo-devnew-124604-deployment",
+      "UnauthRoleName": "amplify-jobapplicationplatfo-devnew-124604-unauthRole",
+      "StackName": "amplify-jobapplicationplatfo-devnew-124604",
+      "StackId": "arn:aws:cloudformation:us-east-1:940990999552:stack/amplify-jobapplicationplatfo-devnew-124604/c46a0240-69cc-11ed-947b-12f097df9d23",
+      "AmplifyAppId": "d185gdibbq7yzk"
+    }
+  }
+}
