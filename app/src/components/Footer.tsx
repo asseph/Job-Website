@@ -51,6 +51,9 @@ export const Footer: FC = () => {
             </svg>
           </a>
         </div>
+        <div className="grid-flow-col gap-4 text-center pr-2">
+          
+        </div>
       </footer>
     </div>
   );
