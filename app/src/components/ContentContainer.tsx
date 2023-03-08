@@ -39,11 +39,7 @@ export const ContentContainer: FC = (props) => {
               <a>tasks</a>
             </Link>
           </li>
-          <li>
-            <Link href="/timeline">
-              <a>timeline</a>
-            </Link>
-          </li>
+        
         </ul>
       </div>
     </div>
